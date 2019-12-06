@@ -74,9 +74,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         music_seekBar= findViewById(R.id.music_seekBar);
         music_LinearLayout= findViewById(R.id.music_LinearLayout);
 
-
-
-
+        
+        Log.d("TAG","onCreate()");
 
         fragmentPagerAdapter=new ViewPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(fragmentPagerAdapter);
