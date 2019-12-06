@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imgMusic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/music2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMusicName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="노래 이름"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtSinger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가수 이름"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btnMyMusicList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MyList추가하기"
+            android:background="@drawable/ic_queue_music_black_48dp"
+            />
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#50d9d9d9" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/chooseMusicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="노래이름"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/chooseMusicSinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가수이름"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        />
+    <ImageView
+        android:id="@+id/chooseImage"
+        android:layout_margin="5dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/brown_eyed_girls_wonder_woman"
+        />
+    <RatingBar
+        android:id="@+id/chooseRactingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:max="5"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/chooseMusicRatingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="15sp" />
+</LinearLayout>
